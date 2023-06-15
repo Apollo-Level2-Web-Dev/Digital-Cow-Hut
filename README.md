@@ -87,7 +87,7 @@ Error Response Object Should include the following properties:
 {
   "_id":"ObjectId(“6473c6a50c56d0d40b9bb6a3)",  
   "password":"abrakadabra",
-  "role": "buyer",
+  "role": "seller",
    "name":{
       "firstName": "Mr. Babull"
       "lastName": "Bro"
