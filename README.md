@@ -509,6 +509,6 @@ Response Sample Pattern:
    - api/v1/cows?searchTerm=Cha
      
   
-   #### User
+   #### Orders
    - api/v1/orders (POST)
    - api/v1/orders (GET)
