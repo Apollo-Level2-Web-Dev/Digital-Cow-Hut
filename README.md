@@ -474,7 +474,7 @@ Response Sample Pattern:
 
 ### What to submit
 1. Your Github Private Repository Link
-2. Deployed Live Link (Vercel / Railway / Heroku or any other platform)  ** Do not use a logger. It will not work on the free hosting platform **
+2. Deployed Live Link (Vercel / Railway / Heroku or any other platform)  `** Do not use a logger. It will not work on the free hosting platform **`
 3. Must include all the routes into Readme.md file. You can follow the pattern given below to enlist your application routes:
 
    #### User
