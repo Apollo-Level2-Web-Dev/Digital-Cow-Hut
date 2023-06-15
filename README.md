@@ -505,7 +505,7 @@ Response Sample Pattern:
    - api/v1/cows?pag=1&limit=10
    - api/v1/cows?sortBy=price&price=asc
    - api/v1/cows?minPrice=20000&maxPrice=70000
-   - api/v1/cows?location=Chattogram)
+   - api/v1/cows?location=Chattogram
    - api/v1/cows?searchTerm=Cha
      
   
