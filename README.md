@@ -484,7 +484,7 @@ Response Sample Pattern:
    - `** Do not use a logger. It will not work on the free hosting platforms **`
 4. Must include all the routes into Readme.md file.
    - `** You must follow provided API Endpoints  for creating routes. Otherwise, you will lose your marks **`
-You can follow the pattern given below to enlist your application routes:
+You can follow the pattern given below to enlist your application routes in the readme.md file:
 
 
   ### Live Link: https://example.com
