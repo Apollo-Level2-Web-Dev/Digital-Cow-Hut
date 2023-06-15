@@ -16,6 +16,8 @@ You have been assigned the task of building the backend for an Online Cow Sellin
 - Use Mongoose as the Object Data Modeling (ODM) and validation library for MongoDB.
 
 
+## Main Part : ( 50 Marks )
+
 ### Error Handling:
 
 Implement proper error handling throughout the application.
@@ -414,8 +416,10 @@ Response Sample Pattern:
       "data": {}, 
   }
 ```
+
+#3 Bonus Part : ( 10 Marks )
      
-### Bonus:  Implement Create, Read Operations for Order History Listings.
+### Implement Create, Read Operations for Order History Listings.
 
 Route:  /api/v1/orders  (POST)
 
