@@ -474,7 +474,7 @@ Response Sample Pattern:
 - 60 Marks 3 Days (Till  Sunday 11.59 AM)
 - 50 Marks 1 Day (Till Monday 11.59 AM)
 
-
+ `** In order for your assignment to be evaluated, it is essential to have a minimum of 20 meaningful commits. Please note that unnecessary commits will not be considered as part of the evaluation process.**`
 
 ### What to submit
 1. Your Github Private Repository Link
