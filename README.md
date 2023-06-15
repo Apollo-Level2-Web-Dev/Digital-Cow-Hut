@@ -167,9 +167,14 @@ Error Response Object Should include the following properties:
  {
   "password":"abrakadabra",
   "role": "buyer",
+   "name": {
+     "firstName": "Kopa",
+      "lastName": "Samsu"
+   },
   "phoneNumber":"01711111111",
   "address": "Chattogram",
   "budget":30000  // money to buy the cow
+  "income":0 // By Default 0
 }
 ```
  
@@ -202,10 +207,6 @@ Error Response Object Should include the following properties:
       "success": true, 
       "statusCode":200,
       "message": "Users retrieved successfully",
-      "meta": {
-        "page": 3,
-        "limit": 10,
-        }
       "data": [{},{}], 
   }
 ```
@@ -217,7 +218,7 @@ Route:  /api/v1/users/:id (GET)
 
 Request Param: :id
 
-Response: The user object.
+Response: The specified user object.
 
 Response Sample Pattern:
 
@@ -236,7 +237,7 @@ Response Sample Pattern:
  
  Request Param: :id
  
- Response: 'User updated successfully;
+ Response: The updated user object.
  
  Response Sample Pattern:
  
@@ -255,7 +256,7 @@ Response Sample Pattern:
  
  Request Param: :id
  
- Response: 'User deleted successfully;
+ Response:  The deleted user object.
  
  Response Sample Pattern:
  
@@ -322,6 +323,7 @@ Request body:
       "meta": {
         "page": 3,
         "limit": 10,
+        "count":1050
         }
       "data": [{},{}] , 
   }
@@ -365,7 +367,7 @@ Route:  /api/v1/cows/:id (GET)
 
 Request Param: :id
 
-Response: The cow object.
+Response: The specified cow object.
 
 Response Sample Pattern:
 
@@ -385,7 +387,7 @@ Response Sample Pattern:
  
  Request Param: :id
  
- Response: "Cow updated successfully";
+ Response: The updated cow object.
 
  Response Sample Pattern:
 
@@ -404,7 +406,7 @@ Response Sample Pattern:
  
  Request Param: :id
  
- Response: 'Cows deleted successfully;
+ Response: The deleted cow object
  
  Response Sample Pattern:
 
@@ -478,8 +480,11 @@ Response Sample Pattern:
 
 ### What to submit
 1. Your Github Private Repository Link
-2. Deployed Live Link (Vercel / Railway / Heroku or any other platform)  `** Do not use a logger. It will not work on the free hosting platforms **`
-3. Must include all the routes into Readme.md file. You can follow the pattern given below to enlist your application routes:
+2. Deployed Live Link (Vercel / Railway / Heroku or any other platform)
+   - `** Do not use a logger. It will not work on the free hosting platforms **`
+4. Must include all the routes into Readme.md file.
+   - `** You must follow provided API Endpoints  for creating routes. Otherwise, you will lose your marks **`
+You can follow the pattern given below to enlist your application routes:
 
 
   ### Live Link: https://example.com
@@ -503,7 +508,7 @@ Response Sample Pattern:
    ### Pagination and Filtering routes of Cows
 
    - api/v1/cows?pag=1&limit=10
-   - api/v1/cows?sortBy=price&price=asc
+   - api/v1/cows?sortBy=price&sortOrder=asc
    - api/v1/cows?minPrice=20000&maxPrice=70000
    - api/v1/cows?location=Chattogram
    - api/v1/cows?searchTerm=Cha
