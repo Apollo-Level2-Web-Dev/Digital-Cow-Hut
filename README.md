@@ -477,6 +477,10 @@ Response Sample Pattern:
 2. Deployed Live Link (Vercel / Railway / Heroku or any other platform)  `** Do not use a logger. It will not work on the free hosting platform **`
 3. Must include all the routes into Readme.md file. You can follow the pattern given below to enlist your application routes:
 
+
+  ### Live Link: https://example.com
+  ### Application Routes:
+
    #### User
    - api/v1/users (POST)
    - api/v1/users (GET)
