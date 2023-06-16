@@ -116,7 +116,7 @@ Error Response Object Should include the following properties:
   - Rangpur
   - Mymensingh
 
-- breed: The breed of the cow → embedded 
+- breed: The breed of the cow
   - Brahman 
   - Nellore 
   - Sahiwal 
